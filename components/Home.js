@@ -12,7 +12,7 @@ function Home() {
   const[allMovies, setAllMovies] = useState([]);
 
   useEffect(() =>{
-    fetch('https://my-movies-backend-seven.vercel.app/movies')
+    fetch('https://my-movies-backend-seven.vercel.app//movies')
     .then(response => response.json())
     .then(data => 
       setAllMovies(data.movies))
