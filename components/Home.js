@@ -18,6 +18,7 @@ function Home() {
       setAllMovies(data.movies))
   }, [])
 
+  console.log(allMovies);
   
 
   // Liked movies (inverse data flow)
